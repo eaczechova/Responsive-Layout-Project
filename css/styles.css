@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  width: 100%;
+  color: #333;
+  font-size: 62.5%;
+}
+
+.content {
+  width: 100%;
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+#top, #contact, footer {
+  background-color: #f9f9f9;
+}
+
+.heading-1 {
+  text-align: center;
+  padding: 2.5rem 0 1.2rem;
+  margin-top: 0px;
+}
+
+.heading-2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.heading-3 {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 5rem 0;
+  text-align: center;
+}
+
+.nav-item {
+  padding: 1.4rem;
+  background-color: #fff;
+  margin: 0 1.4rem .8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.pg {
+  width: 90%;
+  text-align: center;
+  padding: 1.4rem 1.4rem 3rem;
+  margin: auto;
+  line-height: 1.5;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.profile-picture {
+  width: 230px;
+}
+
+.project-picture {
+  width: 300px;
+}
+
+#portfolio > .heading-2 {
+  padding: 4rem 0 2.2rem;
+}
+
+#contact > .heading-2 {
+  padding: 4.5rem 0 1rem;
+}
+
+.contact-list-item {
+  text-align: center;
+  padding-top: 1.2rem;
+}
+
+.contact-list {
+  width: 95%;
+  list-style: none;
+  padding: 0 0 4rem 0;
+  margin: auto;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+#contact .pg {
+  padding-bottom: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer:first-child, footer:last-child {
+  align-self: center;
+  padding: 2rem;
+}
