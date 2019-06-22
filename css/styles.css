@@ -96,10 +96,45 @@ img {
   padding: 4rem 0 2.2rem;
 }
 
+/* SKILLS SECTION */
+
+#skills {
+  width: 100%;
+  margin: 3rem auto 0;
+  text-align: center;
+}
+
+.skill-list {
+  list-style: none;
+  margin: 3rem auto 5rem;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 23rem;
+  justify-content: space-evenly;
+}
+
+.skill-item {
+  padding: 1rem;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #fff;
+  margin: 1rem;
+  width: 6rem;
+  height: 5rem;
+  max-width: 35rem;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  text-align: center;
+}
+
+.fab {
+  font-size: 3rem;
+}
+
 /* CONTACT SECTION */
 
 #contact > .heading-2 {
-  padding: 4.5rem 0 1rem;
+  padding: 3rem 0 1rem;
 }
 
 #contact .pg {
@@ -216,6 +251,21 @@ footer {
 
   .project-picture {
     width: 360px;
+  }
+
+  /* SKILLS SECTION */
+
+  .skill-list {
+    width: 30rem;
+  }
+
+  .skill-item {
+    width: 7rem;
+    height: 6rem;
+  }
+
+  .fab {
+    font-size: 4.5rem;
   }
 
   /* CONTACT SECTION */
