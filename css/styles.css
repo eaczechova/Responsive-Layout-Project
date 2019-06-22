@@ -13,6 +13,7 @@ body {
   width: 100%;
   margin-top: 0;
   font-size: 1.1rem;
+  background-color: #f9f9f9;
 }
 
 #top, #contact, footer {
@@ -33,22 +34,7 @@ body {
 
 .heading-3 {
   text-align: center;
-  padding-top: 3rem;
-}
-
-.nav-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 5rem 0;
-  text-align: center;
-}
-
-.nav-item {
-  padding: 1.4rem;
-  background-color: #fff;
-  margin: 0 1.4rem .8rem;
-  text-transform: uppercase;
-  font-weight: bold;
+  padding-top: 1rem;
 }
 
 a:link,
@@ -73,20 +59,51 @@ img {
   margin: auto;
 }
 
+/* NAVIGATION SECTION */
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 5rem 0;
+  text-align: center;
+}
+
+.nav-item {
+  padding: 1.4rem;
+  background-color: #fff;
+  margin: 0 1.4rem .8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* PROFILE SECTION */
+
 .profile-picture {
   width: 230px;
 }
 
+/* PORTFOLIO SECTION */
+
 .project-picture {
   width: 300px;
+}
+
+#portfolio {
+  background-color: #fff;
 }
 
 #portfolio > .heading-2 {
   padding: 4rem 0 2.2rem;
 }
 
+/* CONTACT SECTION */
+
 #contact > .heading-2 {
   padding: 4.5rem 0 1rem;
+}
+
+#contact .pg {
+  padding-bottom: 1rem;
 }
 
 .contact-list-item {
@@ -95,15 +112,17 @@ img {
 }
 
 .contact-list {
-  width: 95%;
+  width: 90%;
   list-style: none;
   padding: 0 0 4rem 0;
   margin: auto;
   border-bottom: 1px solid #D3D3D3;
 }
 
-#contact .pg {
-  padding-bottom: 1rem;
+/* FOOTER SECTION */
+
+footer {
+  margin: 0 1rem;
 }
 
 .footer-nav {
@@ -125,9 +144,25 @@ img {
 }
 
 @media (min-width: 768px) {
+
   #top {
     padding-bottom: 4rem;
   }
+
+  .heading-1 {
+    margin-bottom: 0px;
+  }
+
+  .heading-2 {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .heading-3 {
+    padding-top: 1rem;
+  }
+
+  /* NAVIGATION SECTION */
 
   .nav-list {
     margin-bottom: 3rem;
@@ -137,8 +172,10 @@ img {
     display: inline-block;
     background-color: inherit;
     margin: 0;
-    font-size: 1rem;
+    font-size: .8rem;
   }
+
+  /* PROFILE SECTION */
 
   .profile-data {
     display: flex;
@@ -150,7 +187,7 @@ img {
   .profile-data .pg {
     text-align: left;
     align-self: flex-start;
-    margin: 0;
+    margin: 0 1.1rem 0 0;
     padding: 0;
     width: 60%;
     font-size: 1.1rem;
@@ -158,12 +195,10 @@ img {
 
   .profile-picture {
     margin-right: 0;
+    width: 40%;
   }
 
-  .heading-2 {
-    font-size: 1rem;
-    width: 100%;
-  }
+  /* PORTFOLIO SECTION */
 
   #portfolio {
     display: flex;
@@ -175,10 +210,6 @@ img {
     width: 50%;
   }
 
-  .heading-3 {
-    padding-top: 1rem;
-  }
-
   #portfolio .pg {
     padding-top: 0;
   }
@@ -187,10 +218,18 @@ img {
     width: 360px;
   }
 
+  /* CONTACT SECTION */
+
   #contact .pg {
     font-size: 1.1rem;
     padding: 2rem 7rem;
   }
+
+  #contact .heading-2 {
+    padding-top: 3rem;
+  }
+
+  /* FOOTER SECTION */
 
   .footer-nav > li {
     display: inline-block;
@@ -210,4 +249,73 @@ img {
 
 @media (min-width: 1024px) {
 
+  .heading-1 {
+    font-size: 1.4rem;
+    flex-grow: 3;
+    text-align: left;
+    margin-left: 4rem;
+    margin-top: -1.7rem;
+    height: 100%;
+    align-self: flex-start;
+  }
+
+  /* NAVIGATION SECTION */
+
+  .top-section {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .nav-list  {
+    height: 100%;
+    align-items: stretch;
+    margin-right: 3rem;
+  }
+
+  .nav-item {
+    height: 100%;
+  }
+
+  /* PROFILE SECTION */
+
+  .profile-picture {
+    margin-right: 2rem;
+    width: 45%;
+  }
+
+  .profile-data .pg {
+    width: 50%;
+    margin: 0 4rem 0 2rem;
+    font-size: 1.3rem;
+  }
+
+  /* PORTFOLIO SECTION */
+
+  #portfolio {
+    margin: 2rem;
+    border-radius: 5px;
+  }
+
+  .project-picture {
+    width: 95%;
+  }
+
+  .portfolio-item {
+    width: 33.333333%;
+  }
+
+  /* CONTACT SECTION */
+
+  #contact .pg {
+    font-size: 1.2rem;
+    padding: 1rem 15rem;
+    margin-bottom: 2rem;
+  }
+
+  /* FOOTER SECTION */
+
+  footer {
+    margin: 0 3rem;
+  }
 }
