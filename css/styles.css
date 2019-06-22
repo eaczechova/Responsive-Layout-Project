@@ -44,6 +44,11 @@ a:active {
   color: inherit;
 }
 
+a:hover, strong:hover {
+  text-decoration: underline;
+  color: RGB(79, 93, 106);
+}
+
 .pg {
   width: 90%;
   text-align: center;
@@ -73,6 +78,7 @@ img {
   background-color: #fff;
   margin: 0 1.4rem .8rem;
   text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
 }
 
