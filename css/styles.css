@@ -321,6 +321,9 @@ footer {
     display: flex;
     justify-content: center;
     align-self: center;
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
   }
 
   .nav-list  {
@@ -335,6 +338,12 @@ footer {
 
   /* PROFILE SECTION */
 
+  .profile-data {
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
   .profile-picture {
     margin-right: 2rem;
     width: 45%;
@@ -342,6 +351,7 @@ footer {
 
   .profile-data .pg {
     width: 50%;
+    max-width: 800px;
     margin: 0 4rem 0 2rem;
     font-size: 1.3rem;
   }
@@ -351,6 +361,9 @@ footer {
   #portfolio {
     margin: 2rem;
     border-radius: 5px;
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto;
   }
 
   .project-picture {
@@ -372,6 +385,9 @@ footer {
   /* FOOTER SECTION */
 
   footer {
-    margin: 0 3rem;
+    width: 90%;
+    /* max-width: 1800px; */
+    margin: 0 auto;
+
   }
 }
